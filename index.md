@@ -5,11 +5,10 @@ title: Jaber Chamak
 
 I am Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer** with 5+ years of hands-on experience.
 
-- End-to-end machine learning workflows: data preparation, modeling, evaluation, and communication of results.
-- Healthcare data science across EHR, telehealth, medical imaging, and physiologic signal data.
+- End-to-end ML workflows: data preparation, modeling, evaluation, and communication of results.
 - Practical engineering skills with Python, SQL, Spark, Hive, Azure, AWS, Databricks, and Power BI.
-- Applied deep learning and AI methods for classification, prediction, clinical decision support, and research translation.
-- Growing hands-on interest in LLMs, GenAI, and healthcare NLP / automation workflows.
+- Applied deep learning and AI methods for classification, prediction, clinical decision support, and translation.
+- Growing hands-on experience in LLMs, GenAI, and healthcare NLP / automation workflows.
 
 ---
 
@@ -88,6 +87,7 @@ I am Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer*
 
 ## Skills and Expertise
 
+- **MLOps and LLMOps**
 - **Programming:** Python, SQL, R, MATLAB, C++
 - **Cloud / Data:** Azure, AWS, Databricks, Spark, Hive
 - **ML / AI:** predictive modeling, deep learning, medical imaging, time-series modeling, class-imbalance learning, LLM fine-tuning
