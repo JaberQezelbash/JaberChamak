@@ -3,7 +3,7 @@ layout: default
 title: Jaber Chamak
 ---
 
-I am, Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer** with 5+ years of hands-on experience. My work focuses on building end-to-end machine learning solutions for structured and unstructured healthcare data, including EHR data, medical images, operational healthcare data, and time-series signals.
+I am Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer** with 5+ years of hands-on experience.
 
 - End-to-end machine learning workflows: data preparation, modeling, evaluation, and communication of results.
 - Healthcare data science across EHR, telehealth, medical imaging, and physiologic signal data.
