@@ -85,12 +85,8 @@ I am, Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer
 
 ---
 
-> For a fuller publication list, see my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=CBPXwVgAAAAJ&view_op=list_works&sortby=pubdate) or my [current academic homepage](https://jaberqezelbash.github.io/).
 
----
-
-
-## Tools and Areas I Work With
+## Skills and Expertise
 
 - **Programming:** Python, SQL, R, MATLAB, C++
 - **Cloud / Data:** Azure, AWS, Databricks, Spark, Hive
