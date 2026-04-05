@@ -80,12 +80,11 @@ I am Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer*
 - **Why it matters:** This project explores an alternative training strategy for imbalance mitigation that is modular and potentially attractive in compute-constrained environments.
 - **Tech stack:** Python, deep learning, image generation / refinement, class-imbalance mitigation.
 - **Code:** [GitHub Repository](https://github.com/JaberQezelbash/NoPropBalance)
-- **Publication status:** Public repository available. Add the journal or preprint link here once the paper is publicly available.
 
 ---
 
 
-## Skills and Expertise
+## Skills
 
 - **MLOps and LLMOps**
 - **Programming:** Python, SQL, R, MATLAB, C++
