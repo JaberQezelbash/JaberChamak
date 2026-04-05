@@ -3,13 +3,7 @@ layout: default
 title: Jaber Chamak
 ---
 
-## About Me
-
-I am a **Healthcare Data Scientist** and **ML/AI Engineer** with 5+ years of experience across hospitals, digital health, and academic healthcare research. My work focuses on building end-to-end machine learning solutions for structured and unstructured healthcare data, including EHR data, medical images, operational healthcare data, and physiologic time-series signals.
-
-I recently completed my Ph.D. at the **University of Florida**, where my research focused on machine learning, deep learning, and healthcare AI. My recent portfolio spans class-imbalance learning, medical imaging, predictive modeling, and LLM fine-tuning for healthcare-related use cases.
-
-### Core Strengths
+I am, Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer** with 5+ years of hands-on experience. My work focuses on building end-to-end machine learning solutions for structured and unstructured healthcare data, including EHR data, medical images, operational healthcare data, and time-series signals.
 
 - End-to-end machine learning workflows: data preparation, modeling, evaluation, and communication of results.
 - Healthcare data science across EHR, telehealth, medical imaging, and physiologic signal data.
@@ -23,7 +17,7 @@ I recently completed my Ph.D. at the **University of Florida**, where my researc
 
 ### 1) Medical Q&A LLM Fine-Tuning with Qwen2.5-1.5B-Instruct
 
-<img src="{{ '/images/qwen-medqa-model.png' | relative_url }}" alt="Medical Q&A LLM fine-tuning workflow" class="project-image">
+<img src="{{ '/images/Qwen_proj.png' | relative_url }}" alt="Medical Q&A LLM fine-tuning workflow" class="project-image">
 
 - **Problem:** Practical healthcare LLM experimentation is often limited by GPU availability and engineering overhead.
 - **What I built:** A CPU-only LoRA fine-tuning workflow for **Qwen2.5-1.5B-Instruct** on a public medical Q&A dataset.
@@ -41,7 +35,7 @@ I recently completed my Ph.D. at the **University of Florida**, where my researc
 
 ### 2) KANBalance
 
-<img src="{{ '/images/kanbalance.svg' | relative_url }}" alt="KANBalance project figure" class="project-image">
+<img src="{{ '/images/KANBalance.svg' | relative_url }}" alt="KANBalance project figure" class="project-image">
 
 - **Problem:** In many healthcare AI settings, the clinically important class is also the rarest class.
 - **What I built:** **KANBalance**, a framework that combines **Kolmogorov-Arnold Networks (KANs)** with **Focal Loss** to improve learning under severe class imbalance.
@@ -58,7 +52,7 @@ I recently completed my Ph.D. at the **University of Florida**, where my researc
 
 ### 3) DEQ-KAN
 
-<img src="{{ '/images/deq-kan.svg' | relative_url }}" alt="DEQ-KAN project figure" class="project-image">
+<img src="{{ '/images/DEQ-KAN.svg' | relative_url }}" alt="DEQ-KAN project figure" class="project-image">
 
 - **Problem:** Deep medical image models often face a tradeoff between expressive depth, memory use, and training stability.
 - **What I built:** **DEQ-KAN**, a framework that combines **Deep Equilibrium Models (DEQs)** with **Kolmogorov-Arnold Networks (KANs)** for robust image classification.
@@ -75,7 +69,7 @@ I recently completed my Ph.D. at the **University of Florida**, where my researc
 
 ### 4) NoPropBalance
 
-<img src="{{ '/images/nopropbalance.svg' | relative_url }}" alt="NoPropBalance project figure" class="project-image">
+<img src="{{ '/images/NoPropBalance.svg' | relative_url }}" alt="NoPropBalance project figure" class="project-image">
 
 - **Problem:** Extreme class imbalance can remain difficult even when using standard oversampling or cost-sensitive learning approaches.
 - **What I built:** **NoPropBalance**, a memory-friendly imbalance-mitigation pipeline that extends no-propagation learning with minority-focused reconstruction and refinement stages.
@@ -95,13 +89,6 @@ I recently completed my Ph.D. at the **University of Florida**, where my researc
 
 ---
 
-## Experience Snapshot
-
-### Machine Learning Researcher — University of Florida (UF Health)
-- Built end-to-end ML and deep learning workflows across clinical data, EHR data, medical images, and physiologic time-series data.
-- Worked from data preprocessing through model development, evaluation, and publication-oriented research output.
-
----
 
 ## Tools and Areas I Work With
 
@@ -110,15 +97,3 @@ I recently completed my Ph.D. at the **University of Florida**, where my researc
 - **ML / AI:** predictive modeling, deep learning, medical imaging, time-series modeling, class-imbalance learning, LLM fine-tuning
 - **Business / research communication:** model evaluation, reporting, presentation of technical work to mixed audiences
 
----
-
-## Contact
-
-- **Email:** [jaber.qezelbash@gmail.com](mailto:jaber.qezelbash@gmail.com)
-- **GitHub:** [JaberQezelbash](https://github.com/JaberQezelbash)
-- **Google Scholar:** [Profile](https://scholar.google.com/citations?hl=en&user=CBPXwVgAAAAJ&view_op=list_works&sortby=pubdate)
-- **CV:** [Download PDF]({{ '/pdf/Jaber_Chamak_CV.pdf' | relative_url }})
-
----
-
-*This site is intentionally project-focused and industry-facing. It is designed to complement, not replace, a full academic publications page.*
