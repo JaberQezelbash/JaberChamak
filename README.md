@@ -1,55 +1,92 @@
-## Developer Portfolio Landing Page Template
+# JaberChamak
 
-### ⚠️ Project Discontinued ⚠️
+Industry-facing portfolio website for **Jaber Chamak** — Healthcare Data Scientist / ML/AI Engineer.
 
-**Note:** This project is no longer maintained and has been discontinued. No further updates or support will be provided. Feel free to fork the repository and make any necessary changes on your own.
+This repository is designed to power a GitHub Pages portfolio that highlights:
+- selected public machine learning and AI projects,
+- code repositories and publication links,
+- a concise professional profile for industry applications,
+- and a downloadable CV.
 
----
+## Intended live URL
 
-### Introduction
+Once GitHub Pages is enabled for this repository, the site should publish at:
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+`https://jaberqezelbash.github.io/JaberChamak/`
 
-### Installation
+## Positioning of this portfolio
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+This version of the site is intentionally different from a full academic homepage.
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+It is built to support **industry job applications**, especially for roles in:
+- healthcare data science,
+- machine learning engineering,
+- applied AI / LLM engineering,
+- clinical analytics,
+- and healthcare-focused data / ML platform work.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The page emphasizes:
+1. end-to-end healthcare ML workflows,
+2. public code repositories,
+3. project-level business / industry relevance,
+4. selected peer-reviewed publications,
+5. and practical tools such as Python, SQL, Spark, Azure, AWS, Databricks, and modern deep learning / LLM tooling.
 
-### Markdown
+## Featured public projects in this portfolio
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- **Finetune Qwen2.5-1.5B-Instruct for Medical Q&A**  
+  CPU-only LoRA fine-tuning of an instruction-tuned LLM on a medical Q&A dataset.
 
-```markdown
-Syntax highlighted code block
+- **KANBalance**  
+  A class-imbalance mitigation framework combining Kolmogorov-Arnold Networks and Focal Loss.
 
-# Header 1
-## Header 2
-### Header 3
+- **DEQ-KAN**  
+  A medical imaging classification framework that combines Deep Equilibrium Models with KAN-based representations.
 
-- Bulleted
-- List
+- **NoPropBalance**  
+  A memory-friendly, class-imbalance mitigation pipeline based on no-propagation learning, minority-class reconstruction, and GAN refinement.
 
-1. Numbered
-2. List
+## Other selected publications highlighted on the page
 
-**Bold** and _Italic_ and `Code` text
+- Longitudinal fetal heart rate analysis for identifying neonates with metabolic acidemia requiring therapeutic hypothermia.
+- Hybrid learnable fusion of ConvNeXt and Swin Transformer for optimized image classification.
+- Survey of machine learning in kidney disease diagnosis.
 
-[Link](url) and ![Image](src)
-```
+## Main files you should keep updated
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- `_config.yml`  
+  Sidebar profile, contact links, site title, GitHub Pages base URL, and CV link.
 
-### Roadmap
+- `_layouts/default.html`  
+  Overall page layout and sidebar / footer behavior.
 
-This project has been discontinued and is no longer actively maintained. No new features or fixes will be added. If you're interested in contributing, feel free to fork the repository and customize it to your needs.
-___
+- `index.md`  
+  Main portfolio content shown on the live site.
 
-### References
+- `ASSETS_TO_UPLOAD.md`  
+  Checklist of images / files to upload manually.
 
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+- `pdf/Jaber_Chamak_CV.pdf`  
+  Your downloadable CV.
+
+## Manual steps after copying these files into your repo
+
+1. Overwrite the template headshot at `images/logo.png` with your real profile photo.
+2. Upload the project figures listed in `ASSETS_TO_UPLOAD.md`.
+3. Upload your CV PDF to `pdf/Jaber_Chamak_CV.pdf`.
+4. Delete template leftovers that are no longer needed:
+   - `images/demo.gif`
+   - `images/dummy_thumbnail.jpg`
+   - `pdf/sample_presentation.pdf`
+5. Enable GitHub Pages from the repository **root** on the default branch.
+6. Review the wording in `index.md` and personalize anything you want to tighten further.
+
+## Suggested repo cleanup
+
+You can keep the original `LICENSE` file from the template if you want, but if you prefer a different license for your own portfolio content, update it accordingly.
+
+You can also safely delete `sample_page.md` if you do not want an extra page. A replacement version is included here so the repo does not contain placeholder lorem ipsum content.
+
+## Credits
+
+This portfolio structure is adapted from the quick-portfolio template and the Minimal GitHub Pages theme, but the content here is rewritten for Jaber Chamak’s project portfolio and industry-facing presentation.
