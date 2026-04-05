@@ -27,7 +27,7 @@ I am, Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer
   - compatibility with Jupyter / IPykernel environments,
   - lightweight inference and evaluation notebooks,
   - base-vs-fine-tuned comparison and quick ROUGE-L sanity checks.
-- **Industry relevance:** Demonstrates practical LLM adaptation, reproducible experimentation, and healthcare-oriented GenAI prototyping under constrained compute.
+- **Why it matters:** Demonstrates practical LLM adaptation, reproducible experimentation, and healthcare-oriented GenAI prototyping under constrained compute.
 - **Tech stack:** Python, PyTorch, Hugging Face Transformers, PEFT / LoRA, notebook-based evaluation.
 - **Code:** [GitHub Repository](https://github.com/JaberQezelbash/finetune-Qwen2.5-1.5B-Instruct)
 
@@ -60,7 +60,7 @@ I am, Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer
   - implicit infinite-depth modeling through fixed-point iteration,
   - KAN-based edge functions for more flexible and interpretable representations,
   - applied to tasks such as pneumonia detection, brain tumor classification, and histopathology analysis.
-- **Industry relevance:** Demonstrates advanced model design for accuracy, efficiency, and robustness in medical imaging workflows.
+- **Why it matters:** Demonstrates advanced model design for accuracy, efficiency, and robustness in medical imaging workflows.
 - **Tech stack:** Python, PyTorch, DEQs, KANs, CNN feature extraction, medical image classification.
 - **Code:** [GitHub Repository](https://github.com/JaberQezelbash/DEQ-KAN)
 - **Publication:** [Biomedical Signal Processing and Control (2025)](https://doi.org/10.1016/j.bspc.2025.108087)
