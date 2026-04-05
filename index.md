@@ -86,7 +86,7 @@ I am Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer*
 
 ## Skills
 
-- **MLOps and LLMOps**
+- **MLOps** and **LLMOps**
 - **Programming:** Python, SQL, R, MATLAB, C++
 - **Cloud / Data:** Azure, AWS, Databricks, Spark, Hive
 - **ML / AI:** predictive modeling, deep learning, medical imaging, time-series modeling, class-imbalance learning, LLM fine-tuning
