@@ -3,7 +3,7 @@ layout: default
 title: Jaber Chamak
 ---
 
-I am Jaber Q. Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer/Scientist** with 5+ years of hands-on experience.
+I am Jaber Qezelbash Chamak, PhD, a **Healthcare Data Scientist** and **ML/AI Engineer/Scientist** with 5+ years of hands-on experience.
 
 - End-to-end ML workflows: data preparation, modeling, evaluation, and communication of results.
 - Practical engineering skills with Python, SQL, Spark, Hive, Azure, AWS, Databricks, and Power BI.
