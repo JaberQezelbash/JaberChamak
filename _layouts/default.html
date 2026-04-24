@@ -44,8 +44,8 @@
 
   /*
     Fix for shorter laptop/desktop screens:
-    The left sidebar stays fixed, but the information under
-    your picture becomes scrollable if there is not enough height.
+    Keep the left sidebar scrollable, while preserving the
+    original Minimal theme spacing and appearance.
   */
   @media print, screen and (min-width: 961px) {
     header {
@@ -57,7 +57,7 @@
     }
 
     header h1,
-    header img {
+    header > img {
       flex: 0 0 auto;
     }
 
@@ -66,6 +66,32 @@
       min-height: 0;
       overflow-y: auto;
       padding-right: 8px;
+
+      /*
+        These preserve the original theme appearance.
+      */
+      font: inherit;
+      color: inherit;
+      line-height: 1.5;
+    }
+
+    header .profile-info p,
+    header .profile-info ul,
+    header .profile-info ol,
+    header .profile-info table,
+    header .profile-info pre,
+    header .profile-info dl {
+      margin: 0 0 20px;
+    }
+
+    header .profile-info h1,
+    header .profile-info h2,
+    header .profile-info h3,
+    header .profile-info h4,
+    header .profile-info h5,
+    header .profile-info h6 {
+      margin: 0 0 20px;
+      line-height: 1.1;
     }
   }
 
@@ -86,6 +112,7 @@
       max-height: none;
       overflow: visible;
       padding-right: 0;
+      line-height: inherit;
     }
   }
 </style>
