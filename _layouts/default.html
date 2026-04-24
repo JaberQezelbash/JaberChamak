@@ -7,47 +7,88 @@
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-      img {
-        max-width: 100%;
-        height: auto;
-      }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-      .project-image {
-        display: block;
-        margin: 0.75rem 0 1rem 0;
-        border: 1px solid #e5e5e5;
-        border-radius: 8px;
-        padding: 0.25rem;
-        background: #fff;
-      }
+  .project-image {
+    display: block;
+    margin: 0.75rem 0 1rem 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 0.25rem;
+    background: #fff;
+  }
 
-      .project-links a {
-        font-weight: 600;
-      }
+  .project-links a {
+    font-weight: 600;
+  }
 
-      .note {
-        color: #666;
-        font-size: 0.95rem;
-      }
+  .note {
+    color: #666;
+    font-size: 0.95rem;
+  }
 
-      header img {
-        border-radius: 8px;
-      }
+  header img {
+    border-radius: 8px;
+  }
 
-      section h3 {
-        margin-top: 2rem;
-      }
+  section h3 {
+    margin-top: 2rem;
+  }
 
-      section ul li {
-        margin-bottom: 0.35rem;
-      }
+  section ul li {
+    margin-bottom: 0.35rem;
+  }
 
-      @media (max-width: 960px) {
-        header img {
-          max-width: 220px;
-        }
-      }
-    </style>
+  /*
+    Fix for shorter laptop/desktop screens:
+    The left sidebar stays fixed, but the information under
+    your picture becomes scrollable if there is not enough height.
+  */
+  @media print, screen and (min-width: 961px) {
+    header {
+      top: 50px;
+      bottom: 100px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    header h1,
+    header img {
+      flex: 0 0 auto;
+    }
+
+    header .profile-info {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+      padding-right: 8px;
+    }
+  }
+
+  /*
+    On tablets and phones, use the normal page scroll.
+  */
+  @media (max-width: 960px) {
+    header {
+      display: block;
+      overflow: visible;
+    }
+
+    header img {
+      max-width: 220px;
+    }
+
+    header .profile-info {
+      max-height: none;
+      overflow: visible;
+      padding-right: 0;
+    }
+  }
+</style>
   </head>
   <body>
     <div class="wrapper">
