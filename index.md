@@ -50,7 +50,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
-### 2) KANBalance
+### 3) KANBalance
 
 <img src="{{ '/images/KANBalance.svg' | relative_url }}" alt="KANBalance project figure" class="project-image">
 
@@ -67,7 +67,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
-### 3) DEQ-KAN
+### 4) DEQ-KAN
 
 <img src="{{ '/images/DEQ-KAN.svg' | relative_url }}" alt="DEQ-KAN project figure" class="project-image">
 
@@ -84,7 +84,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
-### 4) NoPropBalance
+### 5) NoPropBalance
 
 <img src="{{ '/images/NoPropBalance.svg' | relative_url }}" alt="NoPropBalance project figure" class="project-image">
 
