@@ -12,9 +12,29 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
+
+---
+
+### 1) RAG-Based IT Support Chatbot with Llama 3.1
+
+<img src="{{ '/images/RAG_Llama_proj.png' | relative_url }}" alt="RAG-based multilingual IT support chatbot workflow" class="project-image">
+
+- **Problem:** Customer-support chatbots can hallucinate or miss ticket-specific context when they rely only on fine-tuning.
+- **What I built:** A RAG-first multilingual support chatbot using **Llama 3.1-8B-Instruct**, **BGE-M3 retrieval**, **BGE reranking**, and **FAISS**.
+- **Highlights:**
+  - train-only FAISS knowledge base built from solved support tickets,
+  - RAG-grounded supervised fine-tuning data construction,
+  - LoRA / QLoRA adapter fine-tuning,
+  - retrieve → rerank → generate validation pipeline,
+  - saved predictions, retrieved evidence, and evaluation metrics.
+- **Why it matters:** Demonstrates an end-to-end GenAI workflow where retrieval, grounding, and fine-tuning work together for practical customer-support automation.
+- **Tech stack:** Python, PyTorch, Hugging Face Transformers, PEFT / QLoRA, Llama 3.1, BGE-M3, FAISS, RAG.
+- **Code:** [GitHub Repository](https://github.com/JaberQezelbash/RAG-finetune-Llama-3.1-8B-Instruct)
+
+
 ## Selected Projects
 
-### 1) Medical Q&A LLM Fine-Tuning with Qwen2.5-1.5B-Instruct
+### 2) Medical Q&A LLM Fine-Tuning with Qwen2.5-1.5B-Instruct
 
 <img src="{{ '/images/Qwen_proj.png' | relative_url }}" alt="Medical Q&A LLM fine-tuning workflow" class="project-image">
 
