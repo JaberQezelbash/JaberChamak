@@ -8,10 +8,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 - End-to-end ML workflows: data preparation, modeling, evaluation, and communication of results.
 - Practical engineering skills with Python, SQL, Spark, Hive, Azure, AWS, Databricks, and Power BI.
 - Applied deep learning and AI methods for classification, prediction, clinical decision support, and translation.
-- Growing hands-on experience in LLMs, GenAI, and healthcare NLP / automation workflows.
-
----
-
+- Growing hands-on experience in RAG-based LLMs, GenAI, and NLP / automation workflows.
 
 ---
 
