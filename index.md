@@ -12,7 +12,10 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
-### 1) RAG-Based IT Support Chatbot with Llama 3.1
+
+## Selected Projects
+
+### 1) RAG-Based Finetunuing of Llama 3.1-8B-Instruct for IT Support Chatbot
 
 <img src="{{ '/images/RAG_Llama_proj.png' | relative_url }}" alt="RAG-based multilingual IT support chatbot workflow" class="project-image">
 
@@ -28,8 +31,6 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 - **Tech stack:** Python, PyTorch, Hugging Face Transformers, PEFT / QLoRA, Llama 3.1, BGE-M3, FAISS, RAG.
 - **Code:** [GitHub Repository](https://github.com/JaberQezelbash/RAG-finetune-Llama-3.1-8B-Instruct)
 
-
-## Selected Projects
 
 ### 2) Medical Q&A LLM Fine-Tuning with Qwen2.5-1.5B-Instruct
 
