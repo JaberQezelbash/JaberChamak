@@ -16,7 +16,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 ## Selected Projects
 
 
-### 1) Clinical AI Agents with LangGraph Orchestration and Azure Deployment for Patient Triage
+### 1) AI Agents with LangGraph Orchestration and Azure Deployment for Patient Triage
 
 <img src="{{ '/images/LangAzure.png' | relative_url }}" alt="LangGraph and Azure clinical AI agents workflow" class="project-image">
 
