@@ -33,7 +33,6 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 - **Tech stack:** Python, LangGraph, FastAPI, Azure App Service, Azure AI / Azure OpenAI configuration, Pydantic, Pandas, mock EHR data, REST API deployment.
 - **Live Demo:** [Swagger API Demo](https://app-clinical-langgraph-jaber-5271-afbpbchvfzh5h7ef.eastus2-01.azurewebsites.net/docs)
 - **Code:** [GitHub Repository](https://github.com/JaberQezelbash/LangGraph-AzureAI-Agents)
-- 
 
 
 ### 2) RAG-Based Finetunuing of Llama 3.1-8B-Instruct for IT Support Chatbot
