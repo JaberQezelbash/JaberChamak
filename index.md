@@ -8,14 +8,35 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 - End-to-end ML workflows: data preparation, modeling, evaluation, and communication of results.
 - Practical engineering skills with Python, SQL, Spark, Hive, Azure, AWS, Databricks, and Power BI.
 - Applied deep learning and AI methods for classification, prediction, clinical decision support, and translation.
-- Growing hands-on experience in RAG-based LLMs, GenAI, and NLP / automation workflows.
+- Growing hands-on experience in LangGraph, RAG-based LLMs, GenAI, and NLP / automation workflows.
 
 ---
 
 
 ## Selected Projects
 
-### 1) RAG-Based Finetunuing of Llama 3.1-8B-Instruct for IT Support Chatbot
+
+### 1) Clinical AI Agents with LangGraph Orchestration and Azure Deployment for Patient Triage
+
+<img src="{{ '/images/LangAzure.png' | relative_url }}" alt="LangGraph and Azure clinical AI agents workflow" class="project-image">
+
+- **Problem:** Patient-engagement workflows often require more than a simple chatbot because messages may need triage, urgency detection, clinical routing, safety handling, and structured escalation logic.
+- **What I built:** A cloud-deployed **multi-agent clinical AI backend** using **LangGraph**, **FastAPI**, and **Azure OpenAI/App Service** for patient-style message triage and workflow routing.
+- **Highlights:**
+  - LangGraph-based multi-agent workflow for triage, routing, safety checks, and response generation,
+  - FastAPI backend with live Swagger / OpenAPI documentation,
+  - mock EHR-style context lookup and mock clinical tool-calling logic,
+  - structured outputs including intent, urgency, sentiment, specialty, route, escalation flag, and final response,
+  - Azure App Service deployment with environment-based Azure AI / Azure OpenAI configuration,
+  - production-style deployment debugging across local Python, Windows packaging, Linux App Service runtime, Kudu ZIP deployment, and startup-command handling.
+- **Why it matters:** Demonstrates an end-to-end AI-agent engineering workflow where LangGraph orchestration, clinical workflow logic, safety-aware routing, backend API design, and Azure cloud deployment come together as a practical deployable product rather than a notebook-only prototype.
+- **Tech stack:** Python, LangGraph, FastAPI, Azure App Service, Azure AI / Azure OpenAI configuration, Pydantic, Pandas, mock EHR data, REST API deployment.
+- **Live Demo:** [Swagger API Demo](https://app-clinical-langgraph-jaber-5271-afbpbchvfzh5h7ef.eastus2-01.azurewebsites.net/docs)
+- **Code:** [GitHub Repository](https://github.com/JaberQezelbash/LangGraph-AzureAI-Agents)
+- 
+
+
+### 2) RAG-Based Finetunuing of Llama 3.1-8B-Instruct for IT Support Chatbot
 
 <img src="{{ '/images/RAG_Llama_proj.png' | relative_url }}" alt="RAG-based multilingual IT support chatbot workflow" class="project-image">
 
@@ -32,7 +53,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 - **Code:** [GitHub Repository](https://github.com/JaberQezelbash/RAG-finetune-Llama-3.1-8B-Instruct)
 
 
-### 2) Medical Q&A LLM Fine-Tuning with Qwen2.5-1.5B-Instruct
+### 3) Medical Q&A LLM Fine-Tuning with Qwen2.5-1.5B-Instruct
 
 <img src="{{ '/images/Qwen_proj.png' | relative_url }}" alt="Medical Q&A LLM fine-tuning workflow" class="project-image">
 
@@ -50,7 +71,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
-### 3) KANBalance
+### 4) KANBalance
 
 <img src="{{ '/images/KANBalance.svg' | relative_url }}" alt="KANBalance project figure" class="project-image">
 
@@ -67,7 +88,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
-### 4) DEQ-KAN
+### 5) DEQ-KAN
 
 <img src="{{ '/images/DEQ-KAN.svg' | relative_url }}" alt="DEQ-KAN project figure" class="project-image">
 
@@ -84,7 +105,7 @@ I am Jaber Qezelbash Chamak, PhD, a **Data Scientist** and **ML/AI Engineer/Scie
 
 ---
 
-### 5) NoPropBalance
+### 6) NoPropBalance
 
 <img src="{{ '/images/NoPropBalance.svg' | relative_url }}" alt="NoPropBalance project figure" class="project-image">
 
