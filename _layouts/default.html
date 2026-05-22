@@ -7,117 +7,128 @@
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .project-image {
-    display: block;
-    margin: 0.75rem 0 1rem 0;
-    border: 1px solid #e5e5e5;
-    border-radius: 8px;
-    padding: 0.25rem;
-    background: #fff;
-  }
-
-  .project-links a {
-    font-weight: 600;
-  }
-
-  .note {
-    color: #666;
-    font-size: 0.95rem;
-  }
-
-  header img {
-    border-radius: 8px;
-    margin-bottom: 11px;
-  }
-
-  section h3 {
-    margin-top: 2rem;
-  }
-
-  section ul li {
-    margin-bottom: 0.35rem;
-  }
-
-  /*
-    Fix for shorter laptop/desktop screens:
-    Keep the left sidebar scrollable, while preserving the
-    original Minimal theme spacing and appearance.
-  */
-  @media print, screen and (min-width: 961px) {
-    header {
-      top: 50px;
-      bottom: 100px;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-
-    header h1,
-    header > img {
-      flex: 0 0 auto;
-    }
-
-    header .profile-info {
-      flex: 1 1 auto;
-      min-height: 0;
-      overflow-y: auto;
-      padding-right: 8px;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
 
       /*
-        These preserve the original theme appearance.
+        Make the site title/name a little smaller.
+        Change 24px to 23px or 22px if you want it smaller.
       */
-      font: inherit;
-      color: inherit;
-      line-height: 1.5;
-    }
+      header > h1 {
+        font-size: 24px;
+        line-height: 1.12;
+        margin-bottom: 16px;
+      }
 
-    header .profile-info p,
-    header .profile-info ul,
-    header .profile-info ol,
-    header .profile-info table,
-    header .profile-info pre,
-    header .profile-info dl {
-      margin: 0 0 20px;
-    }
+      .project-image {
+        display: block;
+        margin: 0.75rem 0 1rem 0;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        padding: 0.25rem;
+        background: #fff;
+      }
 
-    header .profile-info h1,
-    header .profile-info h2,
-    header .profile-info h3,
-    header .profile-info h4,
-    header .profile-info h5,
-    header .profile-info h6 {
-      margin: 0 0 20px;
-      line-height: 1.1;
-    }
-  }
+      .project-links a {
+        font-weight: 600;
+      }
 
-  /*
-    On tablets and phones, use the normal page scroll.
-  */
-  @media (max-width: 960px) {
-    header {
-      display: block;
-      overflow: visible;
-    }
+      .note {
+        color: #666;
+        font-size: 0.95rem;
+      }
 
-    header img {
-      max-width: 220px;
-    }
+      header img {
+        border-radius: 8px;
+        margin-bottom: 11px;
+      }
 
-    header .profile-info {
-      max-height: none;
-      overflow: visible;
-      padding-right: 0;
-      line-height: inherit;
-    }
-  }
-</style>
+      section h3 {
+        margin-top: 2rem;
+      }
+
+      section ul li {
+        margin-bottom: 0.35rem;
+      }
+
+      /*
+        Fix for shorter laptop/desktop screens:
+        Keep the left sidebar scrollable, while preserving the
+        original Minimal theme spacing and appearance.
+      */
+      @media print, screen and (min-width: 961px) {
+        header {
+          top: 50px;
+          bottom: 100px;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+        }
+
+        header h1,
+        header > img {
+          flex: 0 0 auto;
+        }
+
+        header .profile-info {
+          flex: 1 1 auto;
+          min-height: 0;
+          overflow-y: auto;
+          padding-right: 8px;
+
+          /*
+            These preserve the original theme appearance.
+          */
+          font: inherit;
+          color: inherit;
+          line-height: 1.5;
+        }
+
+        header .profile-info p,
+        header .profile-info ul,
+        header .profile-info ol,
+        header .profile-info table,
+        header .profile-info pre,
+        header .profile-info dl {
+          margin: 0 0 20px;
+        }
+
+        header .profile-info h1,
+        header .profile-info h2,
+        header .profile-info h3,
+        header .profile-info h4,
+        header .profile-info h5,
+        header .profile-info h6 {
+          margin: 0 0 20px;
+          line-height: 1.1;
+        }
+      }
+
+      /*
+        On tablets and phones, use the normal page scroll.
+      */
+      @media (max-width: 960px) {
+        header {
+          display: block;
+          overflow: visible;
+        }
+
+        header img {
+          max-width: 220px;
+        }
+
+        header .profile-info {
+          max-height: none;
+          overflow: visible;
+          padding-right: 0;
+          line-height: inherit;
+        }
+      }
+    </style>
   </head>
+
   <body>
     <div class="wrapper">
       <header>
@@ -129,7 +140,7 @@
 
         <!-- <div>{{ site.description }}</div> -->
         <div class="profile-info">{{ site.description }}</div>
-        
+
         <!-- <p class="view">
           <a href="https://github.com/JaberQezelbash">View My GitHub Profile</a>
         </p> -->
